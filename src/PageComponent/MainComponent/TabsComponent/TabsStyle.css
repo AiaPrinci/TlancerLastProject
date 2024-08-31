@@ -1,0 +1,103 @@
+.Tabs {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    margin-top: 200px;
+}
+
+.tabs-left-purple {
+    width: 1142px;
+    height: 2297px;
+    background-image: url('../assets/images/tabsleftpurple.png');
+    position: absolute;
+    left: 0;
+    top: -550px;
+    z-index: -6;
+}
+
+.left-polygon-tabs {
+    width: 660px;
+    height: 1235px;
+    background-image: url('../assets/images/tabsleftpoleadwa.png');
+    filter: brightness(50%);
+    position: absolute;
+    left: 0;
+    bottom: -450px;
+    z-index: -6;
+}
+
+.left-container {
+    width: 236px;
+    height: 334px;
+    background-image: url('../assets/images/tabsleftcombine.png');
+    position: absolute;
+    left: 70px;
+    bottom: 150px;
+}
+
+.Tabs-Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 130px;
+}
+
+
+.tabs {
+    width: 753px;
+    height: 564px;
+    background-image: url('../assets/images/tabs.png');
+}
+
+.Tabs-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.charcho {
+    width: 338px;
+    height: 325px;
+    position: absolute;
+    background-image: url('../assets/images/charchoD.png');
+    right: 100px;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 769px), (max-width: 1024px) {
+    .left-polygon-tabs {
+        display: none;
+    }
+
+    .left-container {
+        display: none;
+    }
+
+    .charcho {
+        display: none;
+    }
+
+    .Tabs {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Tabs-Container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tabs {
+        width: 450px;
+        height: 337px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

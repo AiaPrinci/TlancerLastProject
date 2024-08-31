@@ -1,0 +1,209 @@
+.Form {
+    width: 100%;
+    height: 1224px;
+    position: relative;
+}
+
+.form-right-green {
+    width: 978px;
+    height: 1951px;
+    background-image: url('../assets/images/FormRightGreen.png');
+    position: absolute;
+    right: 0;
+    top: -600px;
+    z-index: -5;
+}
+
+.form-green-kid {
+    width: 478px;
+    height: 905px;
+    background-image: url('../assets/images/FormGreenKid.png');
+    position: absolute;
+    right: 0;
+    bottom: 300px;
+    filter: brightness(50%);
+}
+
+.form-right-purple {
+    width: 1046px;
+    height: 1847px;
+    background-image: url('../assets/images/FormRightPurple.png');
+    position: absolute;
+    right: 0;
+    bottom: -600px;
+    z-index: -5;
+}
+
+.Form-Container {
+    width: 1460px;
+    height: 965px;
+    clip-path: polygon(0 6%, 3% 0, 100% 0, 100% 94%, 97% 100%, 50% 100%, 50% 56%, 46% 50%, 3% 50%, 0 44%);
+    background-color: #ffffff08;
+    backdrop-filter: blur(5px);
+    border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.Form-Heading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-pic {
+    width: 607px;
+    height: 462px;
+    background-image: url('../assets/images/FormPic.png');
+    position: absolute;
+    bottom: 400px;
+    left: 270px;
+}
+
+.form-triangle {
+    width: 131px;
+    height: 119px;
+    background-image: url('../assets/images/FormTriangle.png');
+    position: absolute;
+    z-index: -5;
+    left: 55px;
+    top: 50px;
+}
+
+.Form-right-part {
+    width: 100%;
+    max-width: 557px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.full-name {
+    width: 100%;
+    height: 52px;
+    outline: none;
+    clip-path: polygon(5% 0, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 30%);
+    padding: 20px;
+    font-family: consolas;
+    font-family: Archivo;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.second-name {
+    width: 100%;
+    height: 52px;
+    outline: none;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 30%);
+    padding: 20px;
+    font-family: consolas;
+    font-family: Archivo;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.third-name {
+    width: 100%;
+    height: 52px;
+    outline: none;
+    clip-path: polygon(100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
+    padding: 20px;
+    font-family: consolas;
+    font-family: Archivo;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.text-area {
+    width: 100%;
+    height: 196px;
+    outline: none;
+    clip-path: polygon(5% 0, 100% 0, 100% 80%, 95% 100%, 0 100%, 0 20%);
+    padding: 30px;
+    padding-top: 20px;
+    font-family: consolas;
+    font-family: Archivo;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #B95DFE;
+    cursor: pointer;
+    position: relative;
+}
+  
+.checkbox.checked {
+    background: transparent;
+}
+
+  
+.checkbox .checkbox-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.form-contact-now {
+    width: 248px;
+    height: 69px;
+    background-image: url('../assets/images/FormContactNow.png');
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 769px), (max-width: 1024px) {
+    .form-green-kid {
+        display: none;
+    }
+
+    .Form-left-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-pic {
+        display: none;
+    }
+
+    .Form-Container {
+        clip-path: none;
+        background: none;
+        border: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .Form-Heading {
+        width: 350px;
+        text-align: center;
+    }
+
+    .Form-right-part {
+        width: 100%;
+    }
+}

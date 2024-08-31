@@ -1,0 +1,143 @@
+.Footer {
+    width: 100%;
+    height: 715px;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.footer-left-purple {
+    width: 1182px;
+    height: 1161px;
+    background-image: url('./assets/images/FooterLeftPurple.png');
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -5;
+}
+
+.footer-left-purple-thing {
+    width: 570px;
+    height: 561px;
+    background-image: url('./assets/images/FooterLeftPurplehing.png');
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -5;
+}
+
+.Footer-container {
+    width: 100%;
+    height: 570px;
+    background-image: url('./assets/images/Footer.png');
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-top: 70px; 
+    display: flex;
+    gap: 200px;
+}
+
+.Footer-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.footer-logo {
+    width: 281px;
+    height: 74px;
+    background-image: url('./assets/images/FooterLogo.png');
+
+}
+
+.footer-socials-container {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-socials {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+#social-1 {
+    background-image: url('./assets/images/FooterFacebook.png');
+}
+
+#social-2 {
+    background-image: url('./assets/images/footerTwitter.png');
+}
+
+#social-3 {
+    background-image: url('./assets/images/FooterInstagram.png');
+}
+
+.Footer-right-container {
+    display: flex;
+    gap: 100px;
+}
+
+.Footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Footer-list h1 {
+    font-size: 28px;
+}
+
+.Footer-list p {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Footer-container+p {
+    position: absolute;
+    font-size: 15px;
+    right: 90px;
+    bottom: 65px;
+}
+
+@media only screen and (max-width: 769px), (max-width: 1024px) {
+
+    .Footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 100px;
+    }
+
+    .Footer-left-container {
+        gap: 50px;
+        align-items: center;
+    }
+
+    .Footer-left-container>div {
+        align-items: center;
+    }
+
+    .footer-left-purple-thing {
+        display: none;
+    }
+
+    .Footer-container {
+        background: none;
+        padding: 0;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .Footer-right-container {
+        flex-direction: column;
+    }
+
+    .Footer-container+p {
+        display: none;
+    }
+
+    .footer-left-purple {
+        display: none;
+    }
+}

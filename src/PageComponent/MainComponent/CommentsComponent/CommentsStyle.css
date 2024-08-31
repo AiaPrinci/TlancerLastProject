@@ -1,0 +1,286 @@
+.Comments {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    position: relative;
+}
+
+.Comments-heading {
+    width: 100%;
+    height: auto;
+    padding-left: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Comments-heading h1 {
+    font-size: 68px;
+    font-family: Clash Display Variable;
+    background: -webkit-linear-gradient(left,  #eee, #DAC8FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.Comments-heading p {
+    font-family: Archivo;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.right-green {
+    width: 758px;
+    height: 1743px;
+    position: absolute;
+    background-image: url('../assets/images/mwvaneee.png');
+    right: 0;
+    top: -600px;
+    z-index: -5;
+}
+
+.right-thing {
+    width: 515px;
+    height: 905px;
+    background-image: url('../assets/images/mwvanesiaaaa.png');
+    position: absolute;
+    right: 0;
+    z-index: -5;
+    top: -100px;
+    filter: brightness(60%);
+}
+
+.left-thing {
+    width: 351px;
+    height: 905px;
+    position: absolute;
+    left: 0;
+    background-image: url('../assets/images/commentsmarjvenaaa.png');
+    filter: brightness(60%);
+}
+
+.left-ball {
+    width: 118px;
+    height: 152px;
+    background-image: url('../assets/images/mrgvaliburtimarcxniv.png');
+    position: absolute;
+    left: 0;
+    bottom: 680px;
+}
+
+.left-ball-thing {
+    width: 44px;
+    height: 44px;
+    background-image: url('../assets/images/prialamrgvaliburti.png');
+    position: absolute;
+    left: 140px;
+    bottom: 720px;
+}
+
+.left-wertilebi {
+    width: 181px;
+    height: 181px;
+    background-image: url('../assets/images/wertilebi.png');
+    position: absolute;
+    left: 30px;
+    bottom: 560px;
+}
+
+.left-cilindri {
+    width: 219px;
+    height: 216px;
+    background-image: url('../assets/images/cilindri.png');
+    position: absolute;
+    left: 32px;
+    bottom: 450px;
+}
+
+.left-thin-purple {
+    width: 914px;
+    height: 1645px;
+    background-image: url('../assets/images/commentspurplething.png');
+    position: absolute;
+    left: 0;
+    bottom: -1100px;
+    z-index: -5;
+}
+
+
+.right-block {
+    width: 325px;
+    height: 317px;
+    background-image: url('../assets/images/marjvenakubiki.png');
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+}
+
+.right-circle-gold {
+    width: 75px;
+    height: 75px;
+    background-image: url('../assets/images/marjvenaoqrosferikubiktanwre.png');
+    position: absolute;
+    right: 70px;
+    bottom: 125px;
+}
+
+.Comments-people {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+}
+
+.Comment {
+    width: 1089px;
+    height: 214px;
+    display: flex;
+    gap: 100px;
+    clip-path: polygon(5% 0, 100% 0, 100% 75%, 95% 100%, 0 100%, 0 25%);
+    background-color: #ffffff0c;
+    backdrop-filter: blur(15px);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+
+.info-tab {
+    display: flex;
+    gap: 30px;
+}
+
+.info-tab h1 {
+    font-size: 24px;
+}
+
+.info-tab p {
+    font-size: 16px;
+}
+
+.comment-pic {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+#first-comment-pic {
+    background-image: url('../assets/images/WadeWarren1.png');
+}
+
+#second-comment-pic {
+    background-image: url('../assets/images/WadeWarren2.png');
+}
+
+#third-comment-pic {
+    background-image: url('../assets/images/WadeWarren3.png');
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/facebook.png');
+    cursor: pointer;
+}
+
+.twitter {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/twitter.png');
+    cursor: pointer;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/insagram.png');
+    cursor: pointer;
+}
+
+/* <div className='right-thing'></div>
+<div className='left-thing'></div>
+<div className='left-ball'></div>
+<div className='left-cilindri'></div>
+<div className='left-wertilebi'></div>
+<div className='left-ball-thing'></div>
+<div className='right-block'></div>
+<div className='right-circle-gold'></div> */
+
+@media only screen and (max-width: 769px), (max-width: 1024px) {
+    .right-block {
+        display: none;
+    }
+
+    .left-ball {
+        display: none;
+    }
+
+    .left-thing {
+        display: none;
+    }
+
+    .right-thing {
+        display: none;
+    }
+    
+    .left-cilindri {
+        display: none;
+    }
+
+    .left-wertilebi {
+        display: none;
+    }
+
+    .left-ball-thing {
+        display: none;
+    }
+
+    .right-circle-gold {
+        display: none;
+    }
+
+    .Comments {
+        height: auto;
+        gap: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Comments-heading {
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    .Comments-heading h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .Comments-people {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        align-items: center;
+    }
+
+    .Comment {
+        width: 80%;
+        height: 600px;
+        flex-direction: column;
+        clip-path: polygon(15% 0, 100% 0, 100% 95%, 85% 100%, 0 100%, 0 5%);
+        padding: 20px;
+    }
+
+    .info-tab {
+        gap: 10px;
+    }
+}
